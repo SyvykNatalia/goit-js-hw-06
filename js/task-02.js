@@ -13,4 +13,4 @@ const elements = ingredients.forEach(ingredient => {
   liElement.classList.add('item')
 })
 console.log(elements)
-ingredientsContainer.append(...elements);
+ingredientsContainer.append(...elements)
