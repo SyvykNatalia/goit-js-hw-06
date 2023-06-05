@@ -1,7 +1,7 @@
 
 const input = document.querySelector('#validation-input')
 
-const RuleSymbolLength = input.dataset.length;
+const RuleSymbolLength = +input.dataset.length;
 
 input.addEventListener('blur', onCheckSymbols);
 
